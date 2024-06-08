@@ -31,8 +31,8 @@ if "messages" and "history" and "uploaded" and "index" and "upload" and "edit" n
     st.session_state.history = []
     st.session_state.edit = False
     if os.path.exists("Data"):
-        st.session_state.uploaded = len(os.listdir("Data")) > 0
-        st.session_state.upload = not len(os.listdir("Data")) > 0
+        st.session_state.uploaded = len(os.listdir("Data")) > 1
+        st.session_state.upload = not len(os.listdir("Data")) > 1
     else:
         st.session_state.uploaded = False
         st.session_state.upload = True
