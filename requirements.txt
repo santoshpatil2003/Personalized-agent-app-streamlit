@@ -1,0 +1,15 @@
+streamlit
+llama-index == 0.10.36
+python-dotenv==1.0.1
+faiss-cpu==1.8.0
+langchain_google_genai
+langchainhub
+bs4
+llama_index.llms.gemini
+llama_index.embeddings.gemini
+python-dotenv
+fastapi
+unicorn
+redis
+llama_index.packs.agents_coa
+docx2txt
